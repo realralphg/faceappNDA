@@ -14,8 +14,8 @@
 
     <!-- Bootstrap core CSS -->
 <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
-<script defer src="face-api.min.js"></script>
-<script defer src="script.js"></script>
+<script defer src="./video/face-api.min.js"></script>
+<script defer src="./video/script.js"></script>
     <style>
       .bd-placeholder-img {
         font-size: 1.125rem;
@@ -78,17 +78,10 @@
 
 <main>
 
-  <section class="py-5 text-center container">
-    <div class="row py-lg-5">
-      <div class="col-lg-6 col-md-8 mx-auto">
-        <h3 class="fw-light">FACE DETECTION AND RECOGNITION SYSTEM (FDRS)</h3>
-        <p class="text-muted">(A CASE STUDY NIGERIAN DEFENCE ACADEMY POSTGRADUATE SCHOOL)</p>
-        
-      </div>
-    </div>
+  <section class="py-5 text-center container">   
     <div class="row py-lg-5">
       <div class="mx-auto">
-        <input type="file" id="imageUpload" width="400px" height="400px">
+        <video id="video" width="720" height="560" autoplay muted></video>
       </div>
     </div>
   </section>
